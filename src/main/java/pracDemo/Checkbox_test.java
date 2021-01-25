@@ -13,14 +13,14 @@ import org.testng.annotations.Test;
 
 public class Checkbox_test {
 	 
-	WebDriver driver;
+	
 	
 	@BeforeMethod
 	public void test2() throws InterruptedException {
 
 	
 		 System.setProperty("webdriver.chrome.driver","C:\\Users\\Sunzida\\eclipse-workspaceTF\\Selenium\\pracDemo\\driver86\\chromedriver.exe");  
-	     driver = new ChromeDriver();  
+	     WebDriver driver = new ChromeDriver();  
 	     driver.navigate().to("https://techfios.com/test/101/");
 	     driver.manage().window().maximize();
 	     driver.findElement(By.xpath("//input[@name='allbox']")).click();
