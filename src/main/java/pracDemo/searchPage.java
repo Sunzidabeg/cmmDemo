@@ -4,7 +4,7 @@ public class searchPage {
 	
 	public void () {
 		
-		System.out.println("Hello Java");
+		System.out.println("Hello Java!!");
 	}
 
 }
